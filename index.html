@@ -1,0 +1,71 @@
+<!--header link><!-->
+<head>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("header.html");
+});
+</script> 
+</head>
+<body>
+<div id="header"></div>
+</body>
+
+  <div class="background">
+     <h2>Movie Booking Form</h2>
+    <div class="booking-form", class = "box">
+      <form>
+        <h2>Personal Details</h2>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="phone" id="phone" name="phone"><br>
+      </form>
+
+    </div>
+  </div>
+<style>h3   {display: inline-block; width: 200px; height: 40px; background-color: rgba(255,255,255,0.7);}</style>
+  <div class="box", class="seating">
+    <h1>Seating</h1>
+    <div id="screen">Screen</div>
+    <div id="seats"></div>
+    <div id="selected-seats"><h2>Selected Seats: </h2></div>
+    <h3 style="color:red;">Reserved Seats</h3>
+    <h3 style="color:yellow;">VIP Seats</h3>
+    <h3 style="color:green;">Regular Seats</h3>
+    <button id="book">Book Now</button>
+    <script src="script.js"></script>
+    <div class="clearfix"></div>
+  </div>
+  
+
+</body>
+
+<!--footer link><!-->
+<head>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#footer").load("footer.html");
+});
+</script> 
+</head>
+
+<body>
+<div id="footer"></div>
+</body>
